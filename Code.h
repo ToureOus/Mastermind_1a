@@ -16,19 +16,20 @@
 //
 
 
-#ifndef CodeHeader_h
-#define CodeHeader_h
+#ifndef Code_h
+#define Code_h
 #include <vector>
 using namespace std; 
 
-class CodeHeader{
+class Code{
 
 	public:
 
-		CodeHeader(int n, int m); //constructor with values n and m 
-		void Start();
-		void Play();
-		vector <int> guessV;
+		Code(int n, int m); //constructor with values n and m 
+		void Start(); //welcome screen type
+		void Play(); //start the game and ask user 
+		void Randomized();
+		vector <int> guessV();
 		int checkCorrect(vector<int>);
 		int checkIncorrect(vector<int>);
 
@@ -44,4 +45,4 @@ class CodeHeader{
 };
 
 
-#endif CodeHeader_h
+#endif Code_h

@@ -83,14 +83,14 @@
   <ImportGroup Label="PropertySheets" />
   <PropertyGroup Label="UserMacros" />
   <ItemGroup>
-    <ClInclude Include="CodeHeader.h" />
+    <ClInclude Include="Code.h" />
     <ClInclude Include="resource.h" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="Mastermind_1a.rc" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="CodeMain.cpp" />
+    <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <ItemDefinitionGroup />
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
