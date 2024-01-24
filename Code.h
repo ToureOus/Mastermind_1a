@@ -18,8 +18,8 @@
 
 #ifndef Code_h
 #define Code_h
-#include <vector>
 using namespace std; 
+#include <vector>
 
 class Code{
 

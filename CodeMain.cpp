@@ -16,8 +16,10 @@ Code::Code(int nValue, int mValue) {
 
 void Code::Start() {
 cout<<"Welcome to MasterMind!"<<endl;
-cout<<"Please enter the length of my sequence: ";
-cin>>nValue>>endl;
+cout << "Your job is to try and figure out the Secret code..."\n<< "The code consists of " << n << " digits, each between 0 and " << m - 1 << "." << endl;
+cout << "You have " << 10 << " attempts to guess the code. Good luck!" << endl << endl;
+//cin>>nValue>>endl; might ask for input in 1b, in mastermind class
+//cout << "Please enter the length of my sequence: "; same as above
 
 
 }
@@ -49,11 +51,11 @@ void Code::Play() {
     cout << endl;
 }
 
-}
 
 
 
-vector<int> Code::guessV() {
+
+vector<int> Code::guessV() { //guessvector
     vector<int> guess;
     int input;
 
